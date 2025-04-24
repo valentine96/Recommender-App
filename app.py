@@ -34,7 +34,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---- Data Loading ----
-data = pd.read_csv("Customer_data_with_clusters.csv")
+data = pd.read_csv("customer_data_with_clusters.csv")
 columns_to_drop = ['Size', 'Sub_Total', 'Shipping_Fee','Total_Amount','Bill_To_City','Type_Of_Sale','Year','Month_Name']
 data = data.drop(columns=columns_to_drop)
 
